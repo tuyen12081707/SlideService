@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
     private fun handleButton() {
-        if (isMyServiceRunning(VocalService::class.java)) {
+        if (DetectClapClap.isRunning) {
             defaultPreferences!!.save("StopService", "1")
 
             MediaManager.getInstance().stopSound()
@@ -189,11 +189,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun check() {
-        if(DetectClapClap.isRunning){
-            vocalService?.stopDetectionExternally()
-        }else{
-            vocalService?.startDetectionExternally()
-        }
         if (ActivityCompat.checkSelfPermission(this, "android.permission.RECORD_AUDIO") != 0) {
             ActivityCompat.requestPermissions(
                 this,
@@ -215,16 +210,14 @@ class MainActivity : AppCompatActivity() {
         defaultPreferences?.save("StopService", "0")
 
         val serviceIntent = Intent(this, VocalService::class.java).apply {
-            putExtra("isServiceRunning", isMyServiceRunning(VocalService::class.java))
+            putExtra("isServiceRunning", DetectClapClap.isRunning)
         }
 
-        if (!isMyServiceRunning(VocalService::class.java)) {
             try {
                 startForegroundService(serviceIntent)
             } catch (e: Exception) {
                 e.printStackTrace()
             }
-        }
         bindService(serviceIntent, connection, Context.BIND_AUTO_CREATE)
     }
 
