@@ -1,12 +1,15 @@
 package com.panda.slideservice.service
 
+import android.app.AlarmManager
 import android.app.Notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
 import android.app.Service
 import android.content.Intent
+import android.os.Binder
 import android.os.IBinder
+import android.os.SystemClock
 import android.util.Log
 import android.widget.RemoteViews
 import android.widget.Toast
@@ -32,15 +35,47 @@ class VocalService : Service(), OnSignalsDetectedListener {
     private var counter = 0
     private var timer: Timer? = null
     private var timerTask: TimerTask? = null
+    private val binder = LocalBinder()
 
-    override fun onBind(intent: Intent): IBinder? {
-        return null
+    inner class LocalBinder : Binder() {
+        fun getService(): VocalService = this@VocalService
+    }
+    override fun onBind(intent: Intent): IBinder {
+        return binder
+    }
+    fun startDetectionExternally() {
+        startDetection()
+    }
+
+    fun stopDetectionExternally() {
+        stopDectection()
     }
 
     override fun onStartCommand(intent: Intent, i: Int, i2: Int): Int {
-        startTimer()
-        Log.i("onstartCommand", "onstartCommand")
-        startDetection()
+        Log.i("TAG", "onstartCommand")
+        val isServiceRunning = intent.getBooleanExtra("isServiceRunning", false)
+        Log.i("TAG", "onstartCommand isServiceRunning: $isServiceRunning")
+        if(!isServiceRunning){
+            startTimer()
+            startDetection()
+        }else{
+            stopTimerTask()
+            stopDectection()
+            val recorderThread: RecorderThread? = this.recorderThread
+            if (recorderThread != null) {
+                recorderThread.stopRecording()
+                Log.d("Hello", "record thread")
+                this.recorderThread = null
+                recorderThread.interrupt()
+            }
+            val detectorThread: DetectorThread? = this.detectorThread
+            if (detectorThread != null) {
+                detectorThread.stopDetection()
+                Log.d("Hello", "dectect thread")
+                this.detectorThread = null
+                detectorThread.interrupt()
+            }
+        }
         return START_STICKY
     }
 
@@ -48,7 +83,7 @@ class VocalService : Service(), OnSignalsDetectedListener {
         try {
             DetectClapClap(applicationContext).listen()
             this.classesApp = DefaultPreferences(this)
-            Log.i("startDetection", "startDetection")
+            Log.i("TAG==", "startDetection")
 
             classesApp?.save("detectClap", "0")
         } catch (unused: Exception) {
@@ -59,7 +94,7 @@ class VocalService : Service(), OnSignalsDetectedListener {
     fun stopDectection() {
         try {
             this.classesApp = DefaultPreferences(this)
-            Log.i("stopDectection", "stopDectection")
+            Log.i("TAG==", "stopDectection")
 
             classesApp?.save("detectClap", "1")
         } catch (e: Exception) {
@@ -69,8 +104,8 @@ class VocalService : Service(), OnSignalsDetectedListener {
 
     override fun onDestroy() {
         super.onDestroy()
-        stopTimerTask()
         stopSelf()
+        stopTimerTask()
         stopDectection()
 
         val recorderThread: RecorderThread? = this.recorderThread
@@ -116,12 +151,32 @@ class VocalService : Service(), OnSignalsDetectedListener {
         }
     }
 
+
     override fun onCreate() {
         super.onCreate()
 
         startMyOwnForeground()
     }
 
+    override fun onTaskRemoved(rootIntent: Intent?) {
+        super.onTaskRemoved(rootIntent)
+        Log.d("Tag==", "onTaskRemoved")
+        val restartServiceIntent = Intent(applicationContext, VocalService::class.java)
+        restartServiceIntent.setPackage(packageName)
+        val restartPendingIntent = PendingIntent.getService(
+            applicationContext,
+            1,
+            restartServiceIntent,
+            PendingIntent.FLAG_ONE_SHOT or PendingIntent.FLAG_IMMUTABLE
+        )
+
+        val alarmManager = getSystemService(ALARM_SERVICE) as AlarmManager
+        alarmManager.set(
+            AlarmManager.ELAPSED_REALTIME_WAKEUP,
+            SystemClock.elapsedRealtime() + 2000,
+            restartPendingIntent
+        )
+    }
     private fun startMyOwnForeground() {
         Log.e("TAG", "startMyOwnForeground: " + "1")
 
@@ -129,7 +184,7 @@ class VocalService : Service(), OnSignalsDetectedListener {
 
         // Create a notification channel
         val notificationChannel =
-            NotificationChannel("VIBRATION_SERVICE", "Secret Camera", NotificationManager.IMPORTANCE_HIGH)
+            NotificationChannel("CHANNEL_ID", "Secret Camera", NotificationManager.IMPORTANCE_HIGH)
         notificationChannel.lightColor = -16776961
         notificationChannel.lockscreenVisibility = Notification.VISIBILITY_PRIVATE
         notificationManager.createNotificationChannel(notificationChannel)

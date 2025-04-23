@@ -2,12 +2,16 @@ package com.panda.slideservice
 
 import android.Manifest
 import android.app.ActivityManager
+import android.content.ComponentName
+import android.content.Context
 import android.content.Intent
+import android.content.ServiceConnection
 import android.content.pm.PackageManager
 import android.hardware.camera2.CameraManager
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.os.IBinder
 import android.provider.Settings
 import android.util.Log
 import android.view.View
@@ -28,6 +32,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private var cameraId: String? = null
     private var camManager: CameraManager? = null
+    private var vocalService: VocalService? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,7 +50,24 @@ class MainActivity : AppCompatActivity() {
         initCam()
         initVIews()
     }
+    private var isBound = false
 
+    private val connection = object : ServiceConnection {
+        override fun onServiceConnected(name: ComponentName?, service: IBinder?) {
+            val binder = service as VocalService.LocalBinder
+            vocalService = binder.getService()
+            isBound = true
+
+            // Ví dụ gọi hàm từ Service
+            vocalService?.startDetectionExternally()
+        }
+
+        override fun onServiceDisconnected(name: ComponentName?) {
+            vocalService = null
+            isBound = false
+            vocalService?.stopDetectionExternally()
+        }
+    }
     private fun initCam() = try {
         camManager = getSystemService(CAMERA_SERVICE) as CameraManager
         cameraId = camManager?.cameraIdList?.get(0)
@@ -82,14 +104,10 @@ class MainActivity : AppCompatActivity() {
             MediaManager.getInstance().stopSound()
             closeFlash()
             viewModel!!.setVibrator(false, this)
-            stopService()
             DetectClapClap.isRunning = false
-
-
             DetectClapClap.isRunning = false
             DetectClapClap.isClapped = false
             DetectClapClap.clapping = 0
-            return
         } else {
             DetectClapClap.isRunning = true
             defaultPreferences!!.save("StopService", "0")
@@ -171,6 +189,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun check() {
+        if(DetectClapClap.isRunning){
+            vocalService?.stopDetectionExternally()
+        }else{
+            vocalService?.startDetectionExternally()
+        }
         if (ActivityCompat.checkSelfPermission(this, "android.permission.RECORD_AUDIO") != 0) {
             ActivityCompat.requestPermissions(
                 this,
@@ -181,19 +204,28 @@ class MainActivity : AppCompatActivity() {
         }
         initializePlayerAndStartRecording()
     }
+    override fun onDestroy() {
+        super.onDestroy()
+        if (isBound) {
+            unbindService(connection)
+            isBound = false
+        }
+    }
     private fun initializePlayerAndStartRecording() {
         defaultPreferences?.save("StopService", "0")
-        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.S) {
+
+        val serviceIntent = Intent(this, VocalService::class.java).apply {
+            putExtra("isServiceRunning", isMyServiceRunning(VocalService::class.java))
+        }
+
+        if (!isMyServiceRunning(VocalService::class.java)) {
             try {
-                startForegroundService(Intent(this, VocalService::class.java))
-            } catch (ignored: Exception) {
-            }
-        } else {
-            try {
-                startForegroundService(Intent(this, VocalService::class.java))
-            } catch (ignored: Exception) {
+                startForegroundService(serviceIntent)
+            } catch (e: Exception) {
+                e.printStackTrace()
             }
         }
-//        Toast.makeText(context, "Detection started", Toast.LENGTH_LONG).show();
+        bindService(serviceIntent, connection, Context.BIND_AUTO_CREATE)
     }
+
 }
