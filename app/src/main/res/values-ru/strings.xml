@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_url">https://play.google.com/store/apps/developer?id=acc+name</string>
+    <string name="more">Учетная запись+имя</string>
+    <string name="flashlight">ФОНАРИК</string>
+    <string name="messenger_send_button_text">Отправлять</string>
+    <string name="setting">НАСТРОЙКИ</string>
+    <string name="sound">ЗВУК</string>
+    <string name="vibrate">Вибрировать</string>
+    <string name="privacy_policy">https://example.com/</string>
+    <string name="txt_find">  Находить</string>
+    <string name="txt_setting">Параметр</string>
+    <string name="play">Играть</string>
+    <string name="pause">Пауза</string>
+    <string name="successfully">Успешно</string>
+    <string name="defaults">По умолчанию</string>
+    <string name="ticktock">ТИК Так</string>
+    <string name="heartbeat">Сердцебиение</string>
+    <string name="strong_vibration">Сильная вибрация</string>
+    <string name="disco_mode">Диско -режим</string>
+    <string name="sos_mode">SOS -режим</string>
+    <string name="flash_mode">Флэш -режим</string>
+    <string name="apply">Применять</string>
+    <string name="txt_volume">Объем</string>
+    <string name="txt_duration">Продолжительность</string>
+    <string name="txt_select">Выберите язык</string>
+    <string name="txt_title">Хлопать, чтобы найти свой телефон</string>
+    <string name="txt_title1">Хлопать в ладоши</string>
+    <string name="txt_des">Чтобы легко найти потерянный телефон</string>
+    <string name="txt_title2">Фонарик в темноте</string>
+    <string name="txt_des2">Чтобы легко найти потерянный телефон</string>
+    <string name="txt_title3">Чего же ты ждешь?</string>
+    <string name="txt_des3">Давайте начнем!</string>
+    <string name="txt_permission">Предоставить разрешение</string>
+    <string name="txt_continue">Продолжать</string>
+    <string name="txt_permission_late">Разрешение предоставить позже</string>
+    <string name="txt_not_allow">Разрешение не разрешено.</string>
+    <string name="txt_allow">Разрешено разрешение.</string>
+    <string name="txt_how_to_use">Как использовать</string>
+    <string name="txt_guide">Нажмите кнопку «Активировать</string>
+    <string name="txt_guide2">Двойной хлопок, когда вы не можете найти свой телефон</string>
+    <string name="txt_change_sound">Изменить звук</string>
+    <string name="txt_guide3">Приложение обнаружит звук хлопка и начнет звонить</string>
+    <string name="txt_guide4">Перед активацией вы можете установить фонарик, настроить громкость и выбрать звук тревоги…</string>
+    <string name="txt_active">Нажмите к активному</string>
+    <string name="txt_deactive">Нажмите на деактив</string>
+    <string name="hindi">хинди</string>
+    <string name="spanish">испанский</string>
+    <string name="french">Французский</string>
+    <string name="arabic">арабский</string>
+    <string name="bengali">Бенгальский</string>
+    <string name="russian">Русский</string>
+    <string name="portuguese">португальский</string>
+    <string name="indonesian">индонезийский</string>
+    <string name="german">Немецкий</string>
+    <string name="italian">Итальянский</string>
+    <string name="korean">Корейский</string>
+    <string name="english">Английский</string>
+    <string name="txt_help_to_find">Помогите вам найти свой телефон по хлопке!</string>
+    <string name="cat_des">Кошка мяукает</string>
+    <string name="dog_des">Собачий лай</string>
+    <string name="girl_des">Эй, оставайся ей</string>
+    <string name="whistle_des">Свист</string>
+    <string name="hello_des">Привет</string>
+    <string name="car_des">Автомобильный хонк</string>
+    <string name="door_des">Дверной колокол</string>
+    <string name="party_des">Партийный рог</string>
+    <string name="police_des">Полицейский свисток</string>
+    <string name="cavalry_des">Кавалерия</string>
+    <string name="txt_cat">Кошка мяукает</string>
+    <string name="txt_clap_running_notify">Хлоп, чтобы найти мой телефон работает</string>
+    <string name="txt_touch_here_notify">Прикоснуться к деактивному</string>
+    <string name="txt_permission_des">Приложению требует разрешения на запись для предоставления телефона, хлопая в ладоши</string>
+    <string name="txt_allow_access">Разрешить доступ</string>
+    <string name="txt_current_sound">Текущий звук:</string>
+    <string name="txt_next">СЛЕДУЮЩИЙ</string>
+    <string name="txt_tap_to_active">Нажмите к активному</string>
+    <string name="txt_tap_to_deactive">Нажмите на деактив</string>
+    <string name="txt_flashlight">Фонарик</string>
+    <string name="txt_vibrate">Вибрировать</string>
+    <string name="txt_sound">Звук</string>
+    <string name="txt_btn_change_sound">Изменить звук</string>
+    <string name="txt_english">Английский</string>
+    <string name="txt_clap">Хлопать в ладоши</string>
+    <string name="tv_15s">15 с</string>
+    <string name="tv_30s">30 -е годы</string>
+    <string name="tv_1m">1M</string>
+    <string name="tv_2m">2M</string>
+    <string name="txt_two_permission">Эта функция требует разрешения на работу должным образом</string>
+    <string name="txt_record_audio">Запись аудио</string>
+    <string name="txt_overlay">Наложение</string>
+    <string name="txt_over_lay_allow">Приложению требует разрешения наложения, чтобы предоставить функцию Clap, чтобы найти телефон</string>
+    <string name="txt_dialog_allow">Позволять</string>
+    <string name="txt_action_ads">Это действие может содержать рекламу</string>
+
+    <string name="clap">Хлопок</string>
+    <string name="to">Для</string>
+    <string name="find_your_phone">Найдите свой телефон</string>
+    <string name="let_s_go">Поехали</string>
+
+    <string name="record_permission">Запись разрешения</string>
+    <string name="you_must_grant_record_permission_to_use_the_app">Вы должны предоставить разрешение на использование приложения</string>
+    <string name="go_to_setting">Перейти к настройке</string>
+    <string name="cancel_">ОТМЕНА</string>
+
+    <string name="skip">Пропускать</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+

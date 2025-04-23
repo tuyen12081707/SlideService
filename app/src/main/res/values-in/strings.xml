@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_url">https://play.google.com/store/apps/developer?id=acc+name</string>
+    <string name="more">Akun+Nama</string>
+    <string name="flashlight">SENTER</string>
+    <string name="messenger_send_button_text">Mengirim</string>
+    <string name="setting">Pengaturan</string>
+    <string name="play">Bermain</string>
+    <string name="pause">Berhenti sebentar</string>
+    <string name="successfully">Berhasil</string>
+    <string name="defaults">Bawaan</string>
+    <string name="ticktock">Ticktock</string>
+    <string name="heartbeat">Denyut jantung</string>
+    <string name="strong_vibration">Getaran yang kuat</string>
+    <string name="disco_mode">Mode disko</string>
+    <string name="sos_mode">Mode SOS</string>
+    <string name="flash_mode">Mode cepat</string>
+    <string name="apply">Menerapkan</string>
+    <string name="sound">SUARA</string>
+    <string name="vibrate">BERGETAR</string>
+    <string name="privacy_policy">https://example.com/</string>
+    <string name="txt_find">  Menemukan</string>
+    <string name="txt_setting">Pengaturan</string>
+    <string name="txt_volume">Volume</string>
+    <string name="txt_duration">Durasi</string>
+    <string name="txt_select">Pilih bahasa</string>
+    <string name="txt_title">Bertepuk tangan untuk menemukan ponsel Anda </string>
+    <string name="txt_des">untuk menemukan ponsel yang hilang dengan mudah</string>
+    <string name="txt_title2">Senter untuk menyala dalam gelap</string>
+    <string name="txt_des2">untuk menemukan ponsel yang hilang dengan mudah</string>
+    <string name="txt_title1">Tepuk</string>
+    <string name="txt_title3">Apa yang kamu tunggu?</string>
+    <string name="txt_des3">Ayo mulai!</string>
+    <string name="txt_permission">Memberikan ijin</string>
+    <string name="txt_continue">Melanjutkan</string>
+    <string name="txt_permission_late">Hibah Izin nanti</string>
+    <string name="txt_not_allow">Izin tidak diperbolehkan.</string>
+    <string name="txt_allow">Izin diizinkan.</string>
+    <string name="txt_how_to_use">Cara Penggunaan</string>
+    <string name="txt_guide">Klik tombol Activate</string>
+    <string name="txt_guide2">Tepuk ganda saat Anda tidak dapat menemukan ponsel Anda</string>
+    <string name="txt_change_sound">Ubah suara</string>
+    <string name="txt_guide3">Aplikasi ini akan mendeteksi suara yang bertepuk tangan dan mulai berdering</string>
+    <string name="txt_guide4">Sebelum mengaktifkan, Anda dapat mengatur senter, menyesuaikan volume dan memilih suara alarm…</string>
+    <string name="txt_active">Ketuk untuk aktif</string>
+    <string name="txt_deactive">Ketuk untuk melakukan deactive</string>
+    <string name="hindi">Hindi</string>
+    <string name="spanish">Orang Spanyol</string>
+    <string name="french">Perancis</string>
+    <string name="arabic">Arab</string>
+    <string name="bengali">Benggala</string>
+    <string name="russian">Rusia</string>
+    <string name="portuguese">Portugis</string>
+    <string name="indonesian">bahasa Indonesia</string>
+    <string name="german">Jerman</string>
+    <string name="italian">Italia</string>
+    <string name="korean">Korea</string>
+    <string name="english">Bahasa inggris</string>
+    <string name="txt_help_to_find">Membantu Anda menemukan ponsel Anda dengan bertepuk tangan!</string>
+    <string name="cat_des">Kucing mengeong</string>
+    <string name="dog_des">Anjing menggonggong</string>
+    <string name="girl_des">Hei tetaplah dia</string>
+    <string name="whistle_des">Peluit</string>
+    <string name="hello_des">Halo</string>
+    <string name="car_des">Mobil membunyikan klakson</string>
+    <string name="door_des">Bel pintu</string>
+    <string name="party_des">Tanduk pesta</string>
+    <string name="police_des">Peluit polisi</string>
+    <string name="cavalry_des">Kavaleri</string>
+    <string name="txt_cat">Kucing mengeong</string>
+    <string name="txt_clap_running_notify">Bertepuk tangan untuk menemukan ponsel saya sedang berjalan</string>
+    <string name="txt_touch_here_notify">Sentuh di sini untuk melakukan deactive</string>
+    <string name="txt_permission_des">Aplikasi perlu merekam izin untuk menyediakan pencari telepon dengan bertepuk tangan</string>
+    <string name="txt_allow_access">Izinkan akses</string>
+    <string name="txt_current_sound">Suara saat ini:</string>
+    <string name="txt_next">BERIKUTNYA</string>
+    <string name="txt_tap_to_active">Ketuk untuk aktif</string>
+    <string name="txt_tap_to_deactive">Ketuk untuk melakukan deactive</string>
+    <string name="txt_flashlight">Senter</string>
+    <string name="txt_vibrate">Bergetar</string>
+    <string name="txt_sound">Suara</string>
+    <string name="txt_btn_change_sound">Ubah suara</string>
+    <string name="txt_english">Bahasa inggris</string>
+    <string name="txt_clap">Tepuk</string>
+    <string name="tv_15s">15 -an</string>
+    <string name="tv_30s">30 -an</string>
+    <string name="tv_1m">1m</string>
+    <string name="tv_2m">2m</string>
+    <string name="txt_two_permission">Fitur ini membutuhkan izin untuk bekerja dengan benar</string>
+    <string name="txt_record_audio">Suara rekaman</string>
+    <string name="txt_overlay">Hamparan</string>
+    <string name="txt_over_lay_allow">Aplikasi ini memerlukan izin overlay untuk memberikan clap fitur untuk menemukan telepon</string>
+    <string name="txt_dialog_allow">Mengizinkan</string>
+
+    <string name="txt_action_ads">Tindakan ini dapat berisi iklan</string>
+    <string name="clap">Tepuk</string>
+    <string name="to">Untuk</string>
+    <string name="find_your_phone">Temukan Ponsel Anda</string>
+    <string name="let_s_go">Ayo</string>
+
+    <string name="record_permission">Rekam izin</string>
+    <string name="you_must_grant_record_permission_to_use_the_app">Anda harus memberikan izin catatan untuk menggunakan aplikasi</string>
+    <string name="go_to_setting">Pergi ke pengaturan</string>
+    <string name="cancel_">MEMBATALKAN</string>
+
+    <string name="skip">Melewati</string>
+</resources>
+
+
+
+
+

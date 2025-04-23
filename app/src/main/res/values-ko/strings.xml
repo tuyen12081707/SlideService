@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_url">https://play.google.com/store/apps/developer?id=acc+name</string>
+    <string name="more">계정+이름</string>
+    <string name="flashlight">플래시</string>
+    <string name="messenger_send_button_text">보내다</string>
+    <string name="setting">설정</string>
+    <string name="sound">소리</string>
+    <string name="vibrate">떨리다</string>
+    <string name="play">놀다</string>
+    <string name="pause">정지시키다</string>
+    <string name="successfully">성공적으로</string>
+    <string name="defaults">기본</string>
+    <string name="ticktock">진드기</string>
+    <string name="heartbeat">심장 박동</string>
+    <string name="strong_vibration">강한 진동</string>
+    <string name="disco_mode">디스코 모드</string>
+    <string name="sos_mode">SOS 모드</string>
+    <string name="flash_mode">플래시 모드</string>
+
+    <string name="privacy_policy">https://example.com/</string>
+    <string name="txt_find">  찾다</string>
+    <string name="txt_setting">환경</string>
+    <string name="txt_volume">용량</string>
+    <string name="txt_duration">지속</string>
+    <string name="txt_select">언어를 선택하십시오</string>
+    <string name="txt_title">휴대 전화를 찾으려면 박수 </string>
+    <string name="txt_title1">박수</string>
+    <string name="txt_des">손실 된 전화를 쉽게 찾으려면</string>
+    <string name="txt_title2">어두운 곳에서 손전등</string>
+    <string name="txt_des2">손실 된 전화를 쉽게 찾으려면</string>
+    <string name="txt_title3">당신은 무엇을 기다리고 있습니까?</string>
+    <string name="txt_des3">시작하자!</string>
+    <string name="txt_permission">부여 허가</string>
+    <string name="txt_continue">계속하다</string>
+    <string name="txt_permission_late">나중에 허가를 부여하십시오</string>
+    <string name="txt_not_allow">허가는 허용되지 않습니다.</string>
+    <string name="txt_allow">허가 허용.</string>
+    <string name="txt_how_to_use">사용하는 방법</string>
+    <string name="txt_guide">활성화 버튼을 클릭하십시오</string>
+    <string name="txt_guide2">휴대 전화를 찾을 수있을 때 이중 박수</string>
+    <string name="txt_change_sound">소리를 바꾸십시오</string>
+    <string name="txt_guide3">앱은 박수 소리를 감지하고 울리기 시작합니다.</string>
+    <string name="txt_guide4">활성화하기 전에 손전등을 설정하고 볼륨을 조정하며 알람 사운드를 선택할 수 있습니다.</string>
+    <string name="txt_active">Active를 탭하십시오</string>
+    <string name="txt_deactive">Deactive로 탭하십시오</string>
+    <string name="hindi">힌디 어</string>
+    <string name="spanish">스페인의</string>
+    <string name="french">프랑스 국민</string>
+    <string name="arabic">아라비아 말</string>
+    <string name="bengali">벵골 사람</string>
+    <string name="russian">러시아인</string>
+    <string name="portuguese">포르투갈 인</string>
+    <string name="indonesian">인도네시아 인</string>
+    <string name="german">독일 사람</string>
+    <string name="italian">이탈리아 사람</string>
+    <string name="korean">한국인</string>
+    <string name="english">영어</string>
+    <string name="txt_help_to_find">Clap으로 휴대 전화를 찾도록 도와주세요!</string>
+    <string name="cat_des">고양이 나이 잉</string>
+    <string name="dog_des">개 짖는 소리</string>
+    <string name="girl_des">이봐, 그녀에게있어</string>
+    <string name="whistle_des">휘파람</string>
+    <string name="hello_des">안녕하세요</string>
+    <string name="car_des">자동차 혼란</string>
+    <string name="door_des">문 벨</string>
+    <string name="party_des">파티 혼</string>
+    <string name="police_des">경찰 휘파람</string>
+    <string name="cavalry_des">기병대</string>
+    <string name="txt_cat">고양이 나이 잉</string>
+    <string name="txt_clap_running_notify">내 휴대 전화가 실행중인 것을 찾기 위해 박수</string>
+    <string name="txt_touch_here_notify">여기서 접촉하십시오</string>
+    <string name="txt_permission_des">응용 프로그램은 박수를 통해 전화 찾기를 제공하기 위해 기록 권한이 필요합니다.</string>
+    <string name="txt_allow_access">액세스 허용</string>
+    <string name="txt_current_sound">현재 사운드 :</string>
+    <string name="txt_next">다음</string>
+    <string name="txt_tap_to_active">활동적인 탭하십시오</string>
+    <string name="txt_tap_to_deactive">비활성화 탭하십시오</string>
+    <string name="apply">적용하다</string>
+    <string name="txt_flashlight">플래시</string>
+    <string name="txt_vibrate">떨리다</string>
+    <string name="txt_sound">소리</string>
+    <string name="txt_btn_change_sound">소리를 바꾸십시오</string>
+    <string name="txt_english">영어</string>
+    <string name="txt_clap">박수</string>
+    <string name="tv_15s">15s</string>
+    <string name="tv_30s">30 년대</string>
+    <string name="tv_1m">1m</string>
+    <string name="tv_2m">2m</string>
+    <string name="txt_two_permission">이 기능은 제대로 작동하는 권한이 필요합니다</string>
+    <string name="txt_record_audio">레코드 오디오</string>
+    <string name="txt_overlay">씌우다</string>
+    <string name="txt_over_lay_allow">앱은 휴대 전화를 찾기 위해 기능 박수를 제공하기 위해 오버레이 권한이 필요합니다.</string>
+    <string name="txt_dialog_allow">허용하다</string>
+    <string name="txt_action_ads">이 조치에는 광고가 포함될 수 있습니다</string>
+
+    <string name="clap">박수</string>
+    <string name="to">에게</string>
+    <string name="find_your_phone">당신의 전화를 찾으십시오</string>
+    <string name="let_s_go">출발하자</string>
+
+    <string name="record_permission">기록 허가</string>
+    <string name="you_must_grant_record_permission_to_use_the_app">앱 사용에 대한 기록 권한을 부여해야합니다</string>
+    <string name="go_to_setting">설정으로 이동하십시오</string>
+    <string name="cancel_">취소</string>
+
+    <string name="skip">건너뛰다</string>
+</resources>
+
+
+
+
+
+
+
+

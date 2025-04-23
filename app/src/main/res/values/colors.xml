@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#ff000000</color>
+
+    <color name="com_facebook_blue">#ff3b5998</color>
+
+    <color name="com_facebook_messenger_blue">#ff0084ff</color>
+    <color name="com_smart_login_code">#ff3c6499</color>
+
+    <color name="green">#ff2b8b36</color>
+    <color name="grey">#5cebebeb</color>
+
+    <color name="mycolorwhite">#ffffffff</color>
+
+    <color name="red">#ffff0000</color>
+
+    <color name="appcolor">#AE8EF3</color>
+    <color name="colorNormal">#F1F1F1</color>
+    <color name="gray_500">#F1F3F9</color>
+    <color name="gray_100">#4D000000</color>
+    <color name="toolbarclr">#793CFD</color>
+    <color name="orange_700">#FF7D0D</color>
+    <color name="red_500">#F23737</color>
+    <color name="orange_600">#E85400</color>
+    <color name="orange_500">#F23737</color>
+    <color name="orange_200">#FFF7E9</color>
+    <color name="gray_200">#D9D9D9</color>
+    <color name="white_alpha_30">#4DFFFFFF</color>
+    <color name="white_alpha_25">#40FFFFFF</color>
+    <color name="white_alpha_50">#80EFEEEC</color>
+    <color name="gray_alpha_50">#80A6ACB6</color>
+    <color name="gray_setting_alpha_50">#80A6B1B6</color>
+    <color name="gray_700">#804F646F</color>
+    <color name="gray_300">#EFEEEC</color>
+    <color name="gray_800">#9C9797</color>
+    <color name="gray_800_alpha50">#1A9C9797</color>
+    <color name="bg_sound">#F0F0F0</color>
+    <color name="black_300">#263238</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="black_400">#4F646F</color>
+    <color name="black_alpha_50">#804F646F</color>
+    <color name="black_500">#4F646F</color>
+    <color name="colorTitle">#525252</color>
+    <color name="white_alpha">#1A000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_alpha_permission">#59000000</color>
+    <color name="checkBok">#B6BBBD</color>
+    <color name="checkBokSelect">#FF7D0D</color>
+</resources>

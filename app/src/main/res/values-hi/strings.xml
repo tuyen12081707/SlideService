@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_url">https://play.google.com/store/apps/developer?id=acc+name</string>
+    <string name="more">खाता+नाम</string>
+    <string name="flashlight">टॉर्च</string>
+    <string name="play">खेल</string>
+    <string name="pause">रोकना</string>
+    <string name="successfully">सफलतापूर्वक</string>
+    <string name="defaults">गलती करना</string>
+    <string name="ticktock">टिक - टॉक</string>
+    <string name="heartbeat">दिल की धड़कन</string>
+    <string name="strong_vibration">मजबूत कंपन</string>
+    <string name="disco_mode">डिस्को मोड</string>
+    <string name="sos_mode">एसओएस मोड</string>
+    <string name="flash_mode">फ़्लैश मोड</string>
+    <string name="apply">आवेदन करना</string>
+    <string name="messenger_send_button_text">भेजना</string>
+    <string name="setting">समायोजन</string>
+    <string name="sound">आवाज़</string>
+    <string name="vibrate">कंपन</string>
+    <string name="privacy_policy">https://example.com/</string>
+    <string name="txt_find">  पाना</string>
+    <string name="txt_setting">सेटिंग</string>
+    <string name="txt_volume">आयतन</string>
+    <string name="txt_duration">अवधि</string>
+    <string name="txt_select">भाषा चुने</string>
+    <string name="txt_title">अपने फोन को खोजने के लिए ताली</string>
+    <string name="txt_title1">ताली</string>
+    <string name="txt_des">खोए हुए फोन को आसानी से खोजने के लिए</string>
+    <string name="txt_title2">अंधेरे में टॉर्च</string>
+    <string name="txt_des2">खोए हुए फोन को आसानी से खोजने के लिए</string>
+    <string name="txt_title3">आप किस का इंतजार कर रहे हैं?</string>
+    <string name="txt_des3">चलो शुरू करो!</string>
+    <string name="txt_permission">अनुदान अनुमति</string>
+    <string name="txt_continue">जारी रखना</string>
+    <string name="txt_permission_late">बाद में अनुमति अनुदान</string>
+    <string name="txt_not_allow">अनुमति की अनुमति नहीं है।</string>
+    <string name="txt_allow">अनुमति की अनुमति।</string>
+    <string name="txt_how_to_use">का उपयोग कैसे करें</string>
+    <string name="txt_guide">सक्रिय बटन पर क्लिक करें</string>
+    <string name="txt_guide2">जब आप अपना फोन ढूंढ सकते हैं तो डबल क्लैप</string>
+    <string name="txt_change_sound">ध्वनि बदलना</string>
+    <string name="txt_guide3">ऐप क्लैपिंग साउंड का पता लगाएगा और बजना शुरू करेगा</string>
+    <string name="txt_guide4">सक्रिय करने से पहले, आप टॉर्च सेट कर सकते हैं, वॉल्यूम समायोजित कर सकते हैं और अलार्म साउंड का चयन कर सकते हैं ...</string>
+    <string name="txt_active">सक्रिय करने के लिए टैप करें</string>
+    <string name="txt_deactive">निष्क्रिय करने के लिए टैप करें</string>
+    <string name="hindi">हिंदी</string>
+    <string name="spanish">स्पैनिश</string>
+    <string name="french">फ्रांसीसी</string>
+    <string name="arabic">अरबी</string>
+    <string name="bengali">बंगाली</string>
+    <string name="russian">रूसी</string>
+    <string name="portuguese">पुर्तगाली</string>
+    <string name="indonesian">इन्डोनेशियाई</string>
+    <string name="german">जर्मन</string>
+    <string name="italian">इतालवी</string>
+    <string name="korean">कोरियाई</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="txt_help_to_find">आप अपने फोन को ताली से खोजने में मदद करते हैं!</string>
+    <string name="cat_des">कैट मीटिंग</string>
+    <string name="dog_des">कुत्ते भौंक रहे हैं</string>
+    <string name="girl_des">अरे उसे रहो</string>
+    <string name="whistle_des">सीटी</string>
+    <string name="hello_des">नमस्ते</string>
+    <string name="car_des">कार</string>
+    <string name="door_des">डोर बेल</string>
+    <string name="party_des">सींग</string>
+    <string name="police_des">पुलिस सीटी</string>
+    <string name="cavalry_des">घुड़सवार सेना</string>
+    <string name="txt_cat">कैट मीटिंग</string>
+    <string name="txt_clap_running_notify">मेरे फोन को खोजने के लिए ताली चल रही है</string>
+    <string name="txt_touch_here_notify">डेक्टिव करने के लिए यहां स्पर्श करें</string>
+    <string name="txt_permission_des">एप्लिकेशन को क्लैपिंग करके फोन फाइंडर प्रदान करने के लिए रिकॉर्डिंग अनुमति की आवश्यकता है</string>
+    <string name="txt_allow_access">उपयोग की अनुमति दें</string>
+    <string name="txt_current_sound">वर्तमान ध्वनि:</string>
+    <string name="txt_next">अगला</string>
+    <string name="txt_tap_to_active">सक्रिय करने के लिए टैप करें</string>
+    <string name="txt_tap_to_deactive">निष्क्रिय करने के लिए टैप करें</string>
+    <string name="txt_flashlight">टॉर्च</string>
+    <string name="txt_vibrate">कंपन</string>
+    <string name="txt_sound">आवाज़</string>
+    <string name="txt_btn_change_sound">ध्वनि बदलना</string>
+    <string name="txt_english">अंग्रेज़ी</string>
+    <string name="txt_clap">ताली</string>
+    <string name="tv_15s">15</string>
+    <string name="tv_30s">30</string>
+    <string name="tv_1m">1 मी</string>
+    <string name="tv_2m">2 मी</string>
+    <string name="txt_two_permission">इस सुविधा को ठीक से काम करने की अनुमति की आवश्यकता है</string>
+    <string name="txt_record_audio">ध्वनि रिकॉर्ड करें</string>
+    <string name="txt_overlay">उपरिशायी</string>
+    <string name="txt_over_lay_allow">ऐप को फ़ोन खोजने के लिए फ़ीचर क्लैप प्रदान करने के लिए ओवरले की अनुमति की आवश्यकता है</string>
+    <string name="txt_dialog_allow">अनुमति देना</string>
+    <string name="txt_action_ads">इस कार्रवाई में विज्ञापन हो सकते हैं</string>
+
+    <string name="clap">ताली</string>
+    <string name="to">को</string>
+    <string name="find_your_phone">अपने फोन को खोजें</string>
+    <string name="let_s_go">चलो</string>
+
+    <string name="record_permission">अभिलेख अनुमति</string>
+    <string name="you_must_grant_record_permission_to_use_the_app">आपको ऐप का उपयोग करने के लिए रिकॉर्ड अनुमति देना होगा</string>
+    <string name="go_to_setting">सेट करना</string>
+    <string name="cancel_">रद्द करना</string>
+
+    <string name="skip">छोडना</string>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+

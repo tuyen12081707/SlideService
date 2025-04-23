@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="account_url">https://play.google.com/store/apps/developer?id=ACC+Name</string>
+    <string name="more">Compte + nom</string>
+
+    <string name="flashlight">LAMPE DE POCHE</string>
+    <string name="messenger_send_button_text">Envoyer</string>
+    <string name="play">Jouer</string>
+    <string name="pause">Pause</string>
+    <string name="successfully">Avec succès</string>
+    <string name="defaults">Défaut</string>
+    <string name="ticktock">TIC Tac</string>
+    <string name="heartbeat">Battement de coeur</string>
+    <string name="strong_vibration">Vibration forte</string>
+    <string name="disco_mode">Mode disco</string>
+    <string name="sos_mode">Mode SOS</string>
+    <string name="flash_mode">Mode flash</string>
+
+    <string name="setting">PARAMÈTRES</string>
+    <string name="sound">SON</string>
+    <string name="txt_tap_to_deactive">Appuyez sur DÉACTIVE</string>
+    <string name="vibrate">VIBRER</string>
+    <string name="privacy_policy">https://example.com/</string>
+    <string name="txt_find">  Trouver</string>
+    <string name="txt_setting">Paramètre</string>
+    <string name="txt_volume">Volume</string>
+    <string name="txt_duration">Durée</string>
+    <string name="txt_select">Choisir la langue</string>
+    <string name="txt_title">Applaudir pour trouver votre téléphone</string>
+    <string name="txt_title1">Taper</string>
+    <string name="txt_des">Pour trouver le téléphone perdu facilement</string>
+    <string name="txt_title2">Lampe de poche sur l\'obscurité</string>
+    <string name="txt_des2">Pour trouver le téléphone perdu facilement</string>
+    <string name="txt_title3">Qu\'est-ce que tu attends?</string>
+    <string name="txt_des3">Commençons!</string>
+    <string name="txt_permission">Donner la permission</string>
+    <string name="txt_continue">Continuer</string>
+    <string name="txt_permission_late">Accorder la permission plus tard</string>
+    <string name="txt_not_allow">L\'autorisation n\'est pas autorisée.</string>
+    <string name="txt_allow">Autorisation autorisée.</string>
+    <string name="txt_how_to_use">Comment utiliser</string>
+    <string name="txt_guide">Cliquez sur le bouton Activer</string>
+    <string name="txt_guide2">Double tape quand tu ne trouves pas ton téléphone
+</string>
+    <string name="txt_change_sound">Changer de son
+</string>
+    <string name="txt_guide3">L\'application détectera le son applaudissant et commencera à sonner</string>
+    <string name="txt_guide4">Avant d\'activer, vous pouvez régler la lampe de poche, ajuster le volume et sélectionner le son d\'alarme…</string>
+    <string name="txt_active">Appuyez sur Active</string>
+    <string name="txt_deactive">Appuyez sur DÉACTIVE</string>
+    <string name="hindi">hindi</string>
+    <string name="spanish">Espagnol</string>
+    <string name="french">Français</string>
+    <string name="arabic">arabe</string>
+    <string name="bengali">bengali</string>
+    <string name="russian">russe</string>
+    <string name="portuguese">Portugais</string>
+    <string name="indonesian">indonésien</string>
+    <string name="german">Allemand</string>
+    <string name="italian">italien</string>
+    <string name="korean">coréen</string>
+    <string name="english">Anglais</string>
+    <string name="txt_help_to_find">Vous aider à trouver votre téléphone par applaudissement!</string>
+    <string name="cat_des">Chat miaulement</string>
+    <string name="dog_des">Aboiement de chien</string>
+    <string name="girl_des">Hey reste-la</string>
+    <string name="whistle_des">Siffler</string>
+    <string name="hello_des">Bonjour</string>
+    <string name="car_des">Chronométrer la voiture</string>
+    <string name="door_des">Cloche de porte</string>
+    <string name="party_des">Corne de fête</string>
+    <string name="police_des">Sifflet de la police</string>
+    <string name="cavalry_des">Cavalerie</string>
+    <string name="txt_cat">Chat miaulement</string>
+    <string name="txt_clap_running_notify">Applaudir pour trouver mon téléphone en cours d\'exécution</string>
+    <string name="txt_touch_here_notify">Touchez ici à Deative</string>
+    <string name="txt_permission_des">L\'application a besoin d\'enregistrement de l\'autorisation de fournir un chercheur de téléphone en applaudissant</string>
+    <string name="txt_allow_access">Permettre l\'accès</string>
+    <string name="txt_current_sound">Sound actuel:</string>
+    <string name="txt_next">SUIVANT</string>
+    <string name="txt_tap_to_active">Appuyez sur Actif</string>
+    <string name="txt_flashlight">Lampe de poche</string>
+    <string name="txt_vibrate">Vibrer</string>
+    <string name="txt_sound">Son</string>
+    <string name="txt_btn_change_sound">Changer le son</string>
+    <string name="txt_english">Anglais</string>
+    <string name="txt_clap">Taper</string>
+    <string name="tv_15s">15s</string>
+    <string name="tv_30s">30s</string>
+    <string name="tv_1m">1m</string>
+    <string name="tv_2m">2m</string>
+    <string name="txt_two_permission">Cette fonction a besoin de l\'autorisation de travailler correctement</string>
+    <string name="txt_record_audio">Enregistrement audio</string>
+    <string name="txt_overlay">Recouvrir</string>
+    <string name="txt_over_lay_allow">L\'application a besoin d\'une permission de superposition pour fournir la fonctionnalité Fonction pour trouver le téléphone</string>
+    <string name="txt_dialog_allow">Permettre</string>
+    <string name="txt_action_ads">Cette action peut contenir des annonces</string>
+    <string name="apply">Appliquer</string>
+
+    <string name="clap">Applaudir</string>
+    <string name="to">Pour</string>
+    <string name="find_your_phone">Trouver votre téléphone</string>
+    <string name="let_s_go">Allons-y</string>
+
+    <string name="record_permission">Autorisation record</string>
+    <string name="you_must_grant_record_permission_to_use_the_app">Vous devez accorder une permission record pour utiliser l\'application</string>
+    <string name="go_to_setting">Aller au réglage</string>
+    <string name="cancel_">ANNULER</string>
+
+    <string name="skip">Sauter</string>
+
+</resources>
+
+
+
+
+

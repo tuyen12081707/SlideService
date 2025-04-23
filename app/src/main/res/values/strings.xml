@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Find My Phone By Clap, Whistle</string>
+    <string name="account_url">https://play.google.com/store/apps/developer?id=ACC+Name</string>
+    <string name="more">Account+Name</string>
+    <string name="flashlight">FLASHLIGHT</string>
+    <string name="messenger_send_button_text">Send</string>
+    <string name="setting">SETTINGS</string>
+    <string name="sound">SOUND</string>
+    <string name="vibrate">VIBRATE</string>
+    <string name="privacy_policy">https://example.com/</string>
+    <string name="txt_find">  Find</string>
+    <string name="txt_setting">Setting</string>
+    <string name="txt_volume">Volume</string>
+    <string name="txt_duration">Duration</string>
+    <string name="txt_select">Select language</string>
+    <string name="txt_title">Clap to find your phone</string>
+    <string name="txt_title1">Clap</string>
+    <string name="txt_des">to find the lost phone easily</string>
+
+    <string name="txt_title2">Flashlight to on in dark</string>
+    <string name="txt_des2">to find the lost phone easily</string>
+    <string name="txt_title3">What are you waiting for?</string>
+    <string name="txt_des3">Let\'s start!</string>
+    <string name="txt_permission">Grant Permission</string>
+    <string name="txt_continue">Continue</string>
+    <string name="txt_permission_late">Grant permission later</string>
+    <string name="txt_not_allow">Permission is not allowed.</string>
+    <string name="txt_allow">Permission allowed.</string>
+    <string name="txt_how_to_use">How to use ?</string>
+    <string name="txt_guide">Click the activate button</string>
+    <string name="txt_guide2">Double clap when you can\'t find your phone</string>
+    <string name="txt_change_sound">Change sound</string>
+    <string name="txt_guide3">The app will detect the clapping sound and start ringing</string>
+    <string name="txt_guide4">Before activating, you can set the  flashlight, adjust the volume and select alarm sound…</string>
+    <string name="txt_active">Tap to active</string>
+    <string name="txt_deactive">Tap to deactive</string>
+    <string name="hindi">Hindi</string>
+    <string name="spanish">Spanish</string>
+    <string name="french">French</string>
+    <string name="arabic">Arabic</string>
+    <string name="bengali">Bengali</string>
+    <string name="russian">Russian</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="indonesian">Indonesian</string>
+    <string name="german">German</string>
+    <string name="italian">Italian</string>
+    <string name="korean">Korean</string>
+    <string name="english">English</string>
+    <string name="txt_help_to_find">Help you find your phone by clap!</string>
+    <string name="cat_des">Cat meowing </string>
+    <string name="dog_des">Dog barking </string>
+    <string name="girl_des">Hey stay here </string>
+    <string name="whistle_des">Whistle </string>
+    <string name="hello_des">Hello </string>
+    <string name="car_des">Car honk </string>
+    <string name="door_des">Door bell </string>
+    <string name="party_des">Party horn </string>
+    <string name="police_des">Police whistle </string>
+    <string name="cavalry_des">Cavalry </string>
+    <string name="txt_cat">Cat meowing </string>
+    <string name="txt_clap_running_notify">Clap to find my phone is running</string>
+    <string name="txt_touch_here_notify">Touch Here to deactive</string>
+    <string name="txt_permission_des">The application needs <b>Recording Permission</b> to provide phone finder by clapping</string>
+    <string name="txt_allow_access">Allow access</string>
+    <string name="txt_current_sound">Current sound:</string>
+    <string name="txt_next">Next</string>
+    <string name="txt_tap_to_active">Tap to active</string>
+    <string name="txt_tap_to_deactive">Tap to deactive</string>
+    <string name="txt_flashlight">FlashLight</string>
+    <string name="txt_vibrate">Vibrate</string>
+    <string name="txt_sound">Sound</string>
+    <string name="txt_btn_change_sound">Change sound</string>
+    <string name="txt_english">English</string>
+    <string name="txt_clap">Clap</string>
+    <string name="tv_15s">15s</string>
+    <string name="tv_30s">30s</string>
+    <string name="tv_1m">1m</string>
+    <string name="tv_2m">2m</string>
+    <string name="txt_two_permission">This feature needs permission to work properly</string>
+    <string name="txt_record_audio">Record audio</string>
+    <string name="txt_overlay">Overlay</string>
+    <string name="txt_over_lay_allow">The app needs Overlay permission to provide the feature clap to find phone</string>
+    <string name="txt_dialog_allow">Allow</string>
+    <string name="txt_action_ads">This action can contain ads</string>
+    <string name="facebook_id" translatable="false">1326212548291573</string>
+    <string name="app_id" translatable="false">ca-app-pub-1753284754637611~9467364009</string>
+    <string name="no_name" translatable="false">no name</string>
+    <string name="enable_auto_start_permission_to_allow_app_run_in_background" translatable="false">Find Clap to find my phone and grant Overlay permission</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="successfully">Successfully</string>
+    <string name="defaults">Default</string>
+    <string name="ticktock">Ticktock</string>
+    <string name="heartbeat">Heartbeat</string>
+    <string name="strong_vibration">Strong vibration</string>
+    <string name="disco_mode">Disco Mode</string>
+    <string name="sos_mode">SOS Mode</string>
+    <string name="flash_mode">Flash Mode</string>
+    <string name="apply">Apply</string>
+
+    <string name="clap">Clap</string>
+    <string name="to">To</string>
+    <string name="find_your_phone">Find Your Phone</string>
+    <string name="let_s_go">Let\'s Go</string>
+
+    <string name="adjust_token_key" translatable="false">m5ih2ukng83k</string>
+    <string name="record_permission">Record Permission</string>
+    <string name="you_must_grant_record_permission_to_use_the_app">You must grant record permission to use the app</string>
+    <string name="go_to_setting">GO TO SETTING</string>
+    <string name="cancel_">CANCEL</string>
+    <string name="skip">Skip</string>
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_url">https://play.google.com/store/apps/developer?id=ACC+Name</string>
+    <string name="more">Account+Nome</string>
+    <string name="flashlight">TORCIA ELETTRICA</string>
+    <string name="messenger_send_button_text">Inviare</string>
+    <string name="setting">IMPOSTAZIONI</string>
+    <string name="sound">SUONO</string>
+    <string name="play">Giocare</string>
+    <string name="pause">Pausa</string>
+    <string name="successfully">Con successo</string>
+    <string name="defaults">Predefinito</string>
+    <string name="ticktock">Ticktock</string>
+    <string name="heartbeat">Battito cardiaco</string>
+    <string name="strong_vibration">Forte vibrazione</string>
+    <string name="disco_mode">Modalità disco</string>
+    <string name="sos_mode">Modalità SOS</string>
+    <string name="flash_mode">Modalità flash</string>
+
+    <string name="vibrate">VIBRARE</string>
+    <string name="privacy_policy">https://example.com/</string>
+    <string name="txt_find">  Trovare</string>
+    <string name="txt_setting">Collocamento</string>
+    <string name="txt_volume">Volume</string>
+    <string name="txt_duration">Durata</string>
+    <string name="txt_select">Seleziona la lingua</string>
+    <string name="txt_title">Batti per trovare il tuo telefono </string>
+    <string name="txt_title1">Allettamento</string>
+    <string name="txt_des">Per trovare facilmente il telefono smarrito</string>
+    <string name="txt_title2">Torcia su On in buio</string>
+    <string name="txt_des2">Per trovare facilmente il telefono smarrito</string>
+    <string name="txt_title3">Che cosa stai aspettando?</string>
+    <string name="txt_des3">Iniziamo!</string>
+    <string name="txt_permission">Concedere l\'autorizzazione</string>
+    <string name="txt_continue">Continua</string>
+    <string name="txt_permission_late">Concedere il permesso più tardi</string>
+    <string name="txt_not_allow">Il permesso non è consentito.</string>
+    <string name="txt_allow">Autorizzazione consentita.</string>
+    <string name="txt_how_to_use">Come usare</string>
+    <string name="txt_guide">Fai clic sul pulsante Attiva</string>
+    <string name="txt_guide2">Doppio applauso quando non riesci a trovare il tuo telefono</string>
+    <string name="txt_change_sound">Cambia il suono</string>
+    <string name="txt_guide3">L\'app rileverà il suono di applausi e inizierà a squillare</string>
+    <string name="txt_guide4">Prima di attivarti, è possibile impostare la torcia, regolare il volume e selezionare il suono di allarme ...</string>
+    <string name="txt_active">Tocca a Active</string>
+    <string name="txt_deactive">Tocca per deattivo</string>
+    <string name="hindi">hindi</string>
+    <string name="spanish">spagnolo</string>
+    <string name="french">francese</string>
+    <string name="arabic">Arabo</string>
+    <string name="bengali">bengalese</string>
+    <string name="russian">russo</string>
+    <string name="portuguese">portoghese</string>
+    <string name="indonesian">indonesiano</string>
+    <string name="german">Tedesco</string>
+    <string name="italian">Italiano</string>
+    <string name="korean">coreano</string>
+    <string name="english">Inglese</string>
+    <string name="txt_help_to_find">Aiutati a trovare il tuo telefono di Clap!</string>
+    <string name="cat_des">Cat Meowing</string>
+    <string name="dog_des">Cane che abbaia</string>
+    <string name="girl_des">Hey rimani</string>
+    <string name="whistle_des">Fischio</string>
+    <string name="hello_des">Ciao</string>
+    <string name="car_des">Honk dell\'auto</string>
+    <string name="door_des">Campanello di casa</string>
+    <string name="party_des">Corno di festa</string>
+    <string name="police_des">Fischio di polizia</string>
+    <string name="cavalry_des">Cavalleria</string>
+    <string name="txt_cat">Cat Meowing</string>
+    <string name="txt_clap_running_notify">Clap per scoprire che il mio telefono è in esecuzione</string>
+    <string name="txt_touch_here_notify">Tocca qui per deattivo</string>
+    <string name="txt_permission_des">L\'applicazione necessita dell\'autorizzazione di registrazione per fornire il mirino per applausi</string>
+    <string name="txt_allow_access">Consentire l\'accesso</string>
+    <string name="txt_current_sound">Suono attuale:</string>
+    <string name="txt_next">PROSSIMO</string>
+    <string name="txt_tap_to_active">Tocca a Attiva</string>
+    <string name="txt_tap_to_deactive">Tocca per deattivo</string>
+    <string name="txt_flashlight">Torcia elettrica</string>
+    <string name="txt_vibrate">Vibrare</string>
+    <string name="txt_sound">Suono</string>
+    <string name="txt_btn_change_sound">Cambia il suono</string>
+    <string name="txt_english">Inglese</string>
+    <string name="txt_clap">Allettamento</string>
+    <string name="tv_15s">15s</string>
+    <string name="tv_30s">30s</string>
+    <string name="tv_1m">1 m</string>
+    <string name="tv_2m">2m</string>
+    <string name="txt_two_permission">Questa funzionalità richiede il permesso di funzionare correttamente</string>
+    <string name="txt_record_audio">Registra audio</string>
+    <string name="txt_overlay">Overlay</string>
+    <string name="txt_over_lay_allow">L\'app necessita dell\'autorizzazione di sovrapposizione per fornire il battitore per trovare il telefono</string>
+    <string name="txt_dialog_allow">Permettere</string>
+    <string name="txt_action_ads">Questa azione può contenere annunci</string>
+    <string name="apply">Fare domanda a</string>
+    <string name="clap">Applauso</string>
+    <string name="to">Per</string>
+    <string name="find_your_phone">Trova il tuo telefono</string>
+    <string name="let_s_go">Andiamo</string>
+
+    <string name="record_permission">Autorizzazione record</string>
+    <string name="you_must_grant_record_permission_to_use_the_app">È necessario concedere l\'autorizzazione al record per utilizzare l\'app</string>
+    <string name="go_to_setting">Vai all\'impostazione</string>
+    <string name="cancel_">ANNULLA</string>
+
+    <string name="skip">Saltare</string>
+</resources>
+
+
+
+
+
+
+
+
+

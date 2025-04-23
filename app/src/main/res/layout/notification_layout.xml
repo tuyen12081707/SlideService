@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notification_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:clickable="true"
+    android:backgroundTint="@color/white_alpha"
+    android:padding="5dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="5dp"
+        >
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_clap_notify" />
+
+        <TextView
+            android:id="@+id/notification_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_clap_running_notify"
+            android:textColor="@color/black_400"
+            android:textSize="16sp"
+            android:fontFamily="@font/inter_medium"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:paddingRight="25dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_notification"
+            android:backgroundTint="@color/orange_700"
+            android:padding="10dp"
+            android:text="@string/txt_touch_here_notify"
+            android:fontFamily="@font/inter_regular"
+            android:textColor="@color/white_alpha"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="end"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_power_notify"
+            android:padding="5dp"
+            />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_url">https://play.google.com/store/apps/developer?id=acc+Name</string>
+    <string name="more">Conta+nome</string>
+    <string name="flashlight">LANTERNA</string>
+    <string name="messenger_send_button_text">Enviar</string>
+    <string name="setting">CONFIGURAÇÕES</string>
+    <string name="sound">SOM</string>
+    <string name="vibrate">VIBRAR</string>
+    <string name="privacy_policy">https://example.com/</string>
+    <string name="txt_find">  Encontrar</string>
+    <string name="txt_setting">Contexto</string>
+    <string name="txt_volume">Volume</string>
+    <string name="txt_duration">Duração</string>
+    <string name="play">Jogar</string>
+    <string name="pause">Pausa</string>
+    <string name="successfully">Com sucesso</string>
+    <string name="defaults">Padrão</string>
+    <string name="ticktock">TickTock</string>
+    <string name="heartbeat">Batimento cardiaco</string>
+    <string name="strong_vibration">Forte vibração</string>
+    <string name="disco_mode">Modo disco</string>
+    <string name="sos_mode">Modo SOS</string>
+    <string name="flash_mode">Modo de flash</string>
+    <string name="apply">Aplicar</string>
+    <string name="txt_select">Selecione o idioma</string>
+    <string name="txt_title">Palmas para encontrar seu telefone </string>
+    <string name="txt_title1">Aplaudir</string>
+    <string name="txt_des">Para encontrar o telefone perdido facilmente</string>
+    <string name="txt_title2">Lanterna para acender no escuro</string>
+    <string name="txt_des2">Para encontrar o telefone perdido facilmente</string>
+    <string name="txt_title3">O que você está esperando?</string>
+    <string name="txt_des3">Vamos começar!</string>
+    <string name="txt_permission">Conceder permissão</string>
+    <string name="txt_continue">Continuar</string>
+    <string name="txt_permission_late">Conceder permissão mais tarde</string>
+    <string name="txt_not_allow">A permissão não é permitida.</string>
+    <string name="txt_allow">Permissão permitida.</string>
+    <string name="txt_how_to_use">Como usar</string>
+    <string name="txt_guide">Clique no botão Ativar</string>
+    <string name="txt_guide2">Double palma quando você não consegue encontrar seu telefone</string>
+    <string name="txt_change_sound">Mudar o som</string>
+    <string name="txt_guide3">O aplicativo detectará o som de palmas e começará a tocar</string>
+    <string name="txt_guide4">Antes de ativar, você pode definir a lanterna, ajustar o volume e selecionar som de alarme…</string>
+    <string name="txt_active">Toque para ativo</string>
+    <string name="txt_deactive">Toque em desativado</string>
+    <string name="hindi">hindi</string>
+    <string name="spanish">Espanhol</string>
+    <string name="french">Francês</string>
+    <string name="arabic">árabe</string>
+    <string name="bengali">bengali</string>
+    <string name="russian">russo</string>
+    <string name="portuguese">Português</string>
+    <string name="indonesian">indonésio</string>
+    <string name="german">Alemão</string>
+    <string name="italian">italiano</string>
+    <string name="korean">coreano</string>
+    <string name="english">Inglês</string>
+    <string name="txt_help_to_find">Ajude você a encontrar seu telefone por palmas!</string>
+    <string name="cat_des">Gato miando</string>
+    <string name="dog_des">Latando de cachorro</string>
+    <string name="girl_des">Ei, fique ela</string>
+    <string name="whistle_des">Assobiar</string>
+    <string name="hello_des">Olá</string>
+    <string name="car_des">CAR HONK</string>
+    <string name="door_des">Sino da porta</string>
+    <string name="party_des">Chifre de festa</string>
+    <string name="police_des">Apito da polícia</string>
+    <string name="cavalry_des">Cavalaria</string>
+    <string name="txt_cat">Gato miando</string>
+    <string name="txt_clap_running_notify">Palmas para encontrar meu telefone está funcionando</string>
+    <string name="txt_touch_here_notify">Toque aqui para desativar</string>
+    <string name="txt_permission_des">O aplicativo precisa de permissão de gravação para fornecer um localizador de telefones batendo palmas</string>
+    <string name="txt_allow_access">Permitir acesso</string>
+    <string name="txt_current_sound">Som atual:</string>
+    <string name="txt_next">PRÓXIMO</string>
+    <string name="txt_tap_to_active">Toque para ativo</string>
+    <string name="txt_tap_to_deactive">Toque em desativado</string>
+    <string name="txt_flashlight">Lanterna</string>
+    <string name="txt_vibrate">Vibrar</string>
+    <string name="txt_sound">Som</string>
+    <string name="txt_btn_change_sound">Mudar o som</string>
+    <string name="txt_english">Inglês</string>
+    <string name="txt_clap">Aplaudir</string>
+    <string name="tv_15s">15s</string>
+    <string name="tv_30s">30s</string>
+    <string name="tv_1m">1m</string>
+    <string name="tv_2m">2m</string>
+    <string name="txt_two_permission">Este recurso precisa de permissão para funcionar corretamente</string>
+    <string name="txt_record_audio">Gravar audio</string>
+    <string name="txt_overlay">Sobreposição</string>
+    <string name="txt_over_lay_allow">O aplicativo precisa de permissão de sobreposição para fornecer o recurso PLAP para encontrar o telefone</string>
+    <string name="txt_dialog_allow">Permitir</string>
+    <string name="txt_action_ads">Esta ação pode conter anúncios</string>
+
+    <string name="clap">Aplauso</string>
+    <string name="to">Para</string>
+    <string name="find_your_phone">Encontre seu telefone</string>
+    <string name="let_s_go">Vamos lá</string>
+
+    <string name="record_permission">Permissão de registro</string>
+    <string name="you_must_grant_record_permission_to_use_the_app">Você deve conceder permissão de registro para usar o aplicativo</string>
+    <string name="go_to_setting">Vá para a configuração</string>
+    <string name="cancel_">CANCELAR</string>
+
+    <string name="skip">Pular</string>
+</resources>
+
+
+
+
+
+
+
